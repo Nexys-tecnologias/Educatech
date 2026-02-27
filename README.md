@@ -27,7 +27,9 @@ cd Educatech/backend
 
 npm install
 
-### ▶️ Executando o Projeto
+---
+
+## ▶️ Executando o Projeto
 
 npm run dev
 
@@ -35,7 +37,9 @@ npm run dev
 
 http://localhost:3000
 
-### 🏗️ Build da Aplicação
+---
+
+## 🏗️ Build da Aplicação
 
 - Para compilar o projeto TypeScript para JavaScript:
 
@@ -49,7 +53,9 @@ dist/
 
 npm start
 
-### 📁 Estrutura do Projeto
+---
+
+## 📁 Estrutura do Projeto
 
 Educatech/
 └── backend/
@@ -63,8 +69,10 @@ Educatech/
     ├── tsconfig.json
     ├── .env
     └── .gitignore
+    
+---
 
-### 🔐 Variáveis de Ambiente
+## 🔐 Variáveis de Ambiente
 
 - Crie um arquivo .env dentro da pasta backend/.
 
@@ -73,6 +81,8 @@ Exemplo:
 PORT=3000
 
 - ⚠️ O arquivo .env não deve ser enviado para o repositório.
+
+---
 
 ## 📦 Scripts disponíveis
 
