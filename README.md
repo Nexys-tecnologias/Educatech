@@ -1,61 +1,81 @@
-🚀 Tecnologias utilizadas
+# 📘 Educatech
 
-Node.js
+aplicação **Educatech**, desenvolvido com Node.js e TypeScript.
 
-TypeScript
+---
 
-Express
+## 🚀 Tecnologias Utilizadas
 
-TSX (ambiente de desenvolvimento)
+- Node.js
+- TypeScript
+- Express
+- TSX (ambiente de desenvolvimento)
 
-📦 Como rodar o projeto
-✅ 1️⃣ Clonar o repositório
+---
+
+## 📦 Instalação
+
+### 1️⃣ Clonar o repositório
+
 git clone <URL_DO_REPOSITORIO>
-✅ 2️⃣ Entrar na pasta do projeto
+
+### 2️⃣ Acesse a pasta do projeto
+
 cd Educatech/backend
-✅ 3️⃣ Instalar as dependências
-npm install (rode apenas na pasta do baclend)
 
-Esse comando irá baixar automaticamente todas as dependências listadas no package.json.
+### 3️⃣ Instale as dependências
 
-✅ 4️⃣ Rodar o projeto em modo desenvolvimento
+npm install
+
+### ▶️ Executando o Projeto
+
 npm run dev
 
-O servidor iniciará em:
+- Servidor disponível em:
 
 http://localhost:3000
-📂 Estrutura do Projeto
+
+### 🏗️ Build da Aplicação
+
+- Para compilar o projeto TypeScript para JavaScript:
+
+npm run build
+
+- Os arquivos compilados serão gerados na pasta:
+
+dist/
+
+- Para executar a versão compilada:
+
+npm start
+
+### 📁 Estrutura do Projeto
+
 Educatech/
- └── backend/
-      ├── src/
-      │    └── server.ts
-      ├── package.json
-      ├── tsconfig.json
-      └── .env (não versionado)
-🔐 Variáveis de Ambiente
+└── backend/
+    ├── src/
+    │   ├── server.ts
+    │   ├── routes/
+    │   ├── controllers/
+    │   └── services/
+    ├── dist/
+    ├── package.json
+    ├── tsconfig.json
+    ├── .env
+    └── .gitignore
 
-Se o projeto utilizar variáveis de ambiente, crie um arquivo:
+### 🔐 Variáveis de Ambiente
 
-backend/.env
+- Crie um arquivo .env dentro da pasta backend/.
 
 Exemplo:
 
 PORT=3000
-🛠 Scripts disponíveis
-npm run dev     # Inicia o servidor em modo desenvolvimento
-npm run build   # Compila o projeto (se configurado)
-npm start       # Inicia versão compilada (se configurado)
-👨‍💻 Requisitos
 
-Node.js versão LTS instalada
+- ⚠️ O arquivo .env não deve ser enviado para o repositório.
 
-NPM instalado
+## 📦 Scripts disponíveis
 
-📌 Observações
-
-A pasta node_modules não é enviada para o repositório.
-
-Sempre rode npm install antes de iniciar o projeto.
-
-O arquivo .env não deve ser versionado.
-
+npm run dev      → Executa o servidor em modo desenvolvimento  
+npm run build    → Compila o projeto TypeScript  
+npm start        → Executa a versão compilada  
