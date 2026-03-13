@@ -1,5 +1,9 @@
 import express, { Router } from 'express';
 
-const router = Router(); 
+import UserController from './auth/UserController';
+
+const router = Router();
+
+router.post('users,', UserController.store);
 
 export default router;
